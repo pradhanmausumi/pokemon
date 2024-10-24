@@ -1,8 +1,15 @@
-.search-wrapper{
-    margin:0 auto ;
+.search-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    /* Reduced height to lessen vertical space */
+    margin: 0 auto;
 }
-#pokemon-name-search{
-width: 600px;
-margin-top: 2rem;
-padding: 1.5rem;
+
+#pokemon-name-search {
+    width: 600px;
+    padding: 1.5rem;
+    margin-top: 0;
+    /* Ensure no extra margin is added */
 }
